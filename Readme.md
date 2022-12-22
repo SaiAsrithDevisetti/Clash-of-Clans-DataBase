@@ -5,11 +5,11 @@ Uses: We get the players who have more gold, we can use it for clan selection
 ### SELECT count(*) FROM TownHall WHERE Total_Amount_of_Gold > 300000;
 
 mysql> SELECT count(*) FROM TownHall WHERE Total_Amount_of_Gold > 300000;
-+----------+
+
 | count(*) |
-+----------+
+ ----------
 |        3 |
-+----------+
+ ----------
 1 row in set (0.00 sec)
 
 # Query 2

@@ -1,13 +1,13 @@
 # Query 1
 ## Retrive the number of townhalls with gold > 3000000
-From the table TownHall, we get the players with gold greater than 3000000
-Uses: We get the players who have more gold, we can use it for clan selection
+From the table TownHall, we get the players with gold greater than 3000000.
+Uses: We get the players who have more gold, we can use it for clan selection.
 ### SELECT count(*) FROM TownHall WHERE Total_Amount_of_Gold > 300000;
 
 # Query 2
 ## Retrive the Army item with max hitpoints
-In the table Army, we select the item with max hitpoints
-Uses: Enables us to select them or not for a battle
+In the table Army, we select the item with max hitpoints.
+Uses: Enables us to select them or not for a battle.
 ### SELECT Name_of_the_itemorBuilding FROM Army WHERE Hitpoints = (SELECT MAX(Hitpoints) FROM Army);             
 
 # Query 3
